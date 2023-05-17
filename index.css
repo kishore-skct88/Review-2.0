@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3CB371;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  .plant {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+  
+  .plant:last-child {
+    margin-right: 0;
+  }
+  
+  .plant img {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #3CB371;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #2E8B57;
+  }
+  .background-img {  
+    min-height: 720px;  
+    background-size: cover;      
+    background-image: url("https://www.treehugger.com/thmb/YZlpk-7ZS2K8WqNdosFf7BOAsTQ=/2121x1414/filters:no_upscale()/2-1a252d80f9de437ba2d48239cadcbab4.jpg");   
+background-size: cover;
+}

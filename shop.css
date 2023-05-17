@@ -1,0 +1,9 @@
+*{
+background-color:blanchedalmond;
+}
+.background-img {  
+    min-height: 720px;  
+    background-size: cover;      
+    background-image: url("https://images.ctfassets.net/i3tkg7dt3kro/1XF2psWQ0Jojnai0xV8UA3/908e131e986e6ef7ae855a97f1a0ae79/hero-white-flowers.jpg");  
+background-size: cover;
+}
